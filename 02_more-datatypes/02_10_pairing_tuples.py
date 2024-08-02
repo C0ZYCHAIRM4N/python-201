@@ -14,6 +14,10 @@
 
 from resources import randlist
 
+randlist.sort()
 print(randlist)
+tuple_list = [(randlist[i], randlist[i+1]) for i in range(0, len(randlist), 2)]
+print(tuple_list)
+
 
 # Write your code below here

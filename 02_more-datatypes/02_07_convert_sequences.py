@@ -5,3 +5,12 @@
 # - Convert the list back into a tuple.
 
 string = "codingnomads"
+
+tuple = tuple(string)
+print(tuple)
+list = list(tuple)
+list.remove("c")
+list.insert(0, "k")
+
+print(list)
+

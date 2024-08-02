@@ -6,3 +6,16 @@
 # their input is a duplicate and deduct a point.
 # If the user loses 5 points, quit the program.
 # They win if they manage to create a set that has more than 10 items.
+
+while True:
+    user_input = input("Enter a number please! ")
+    
+    try:
+        number = int(user_input)
+        print(f"You entered the number: {number}")
+    except ValueError:
+        print("Wrong input. Please enter a valid number.")
+        break
+
+    
+    

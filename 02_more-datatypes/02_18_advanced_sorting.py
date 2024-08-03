@@ -8,3 +8,10 @@
 # even if you don't yet completely understand why it works the way it does:
 # https://docs.python.org/3/howto/sorting.html#key-functions
 # Feel free to discuss any questions you have with your mentor and on the forum!
+from operator import itemgetter
+
+input_dict = {"item1": 5, "item2": 6, "item3": 1}
+sorted_list = sorted(input_dict.items(), key=lambda item: item[1])
+print(sorted_list)
+
+    

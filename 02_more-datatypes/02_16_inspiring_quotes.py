@@ -16,3 +16,10 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+# iterate over famous quotes
+for quote in famous_quotes:
+    # Split the full name into first and last name
+    first_name, last_name = quote["full_name"].split()
+    # Print the formatted quote
+    print(f'"{quote["quote"]}" - {last_name}, {first_name}')

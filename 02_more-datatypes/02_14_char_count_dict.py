@@ -24,3 +24,4 @@ for char in user_input:
 # Print the result
 print(result)
 
+

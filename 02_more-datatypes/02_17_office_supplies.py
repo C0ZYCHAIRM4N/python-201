@@ -22,3 +22,11 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+for person in office:
+    full_name = person["full_name"]
+    item = person["item"]
+    last_name, first_name = full_name.split(" ", 1)
+    if len(last_name) > 10:
+        print(f"{last_name}, {first_name}          {item}")
+    else:
+        print(f"{last_name}, {first_name}    {item}")

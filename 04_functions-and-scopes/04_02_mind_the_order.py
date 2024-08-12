@@ -6,4 +6,4 @@ def skydive(step_1, step_2):
     print(f"1. {step_1}")
     print(f"2. {step_2}")
 
-skydive("JUMP!", "Take your parachute.")
+skydive("Take your parachute.", "JUMP!")

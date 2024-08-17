@@ -3,3 +3,4 @@
 
 colors = ["neon orange", "spring green"]
 sizes = ["S", "M", "L"]
+listcomp = [(color, size) for color in colors for size in sizes]

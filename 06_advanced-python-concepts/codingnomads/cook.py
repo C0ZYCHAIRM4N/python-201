@@ -1,4 +1,4 @@
 # cook.py
 soup = "pumpkin soup"
-
-print(f"{soup} is soooo good!")
+if __name__ == "__main__":
+    print(f"{soup} is soooo good!")

@@ -5,8 +5,8 @@
 # 2. The longest word (if there is a tie, print all)
 # 3. The total number of words in the file.
 # Open the file and read all words into a list
-with open(r"C:\Users\speng\OneDrive\Desktop\codingnomads 201 labs\python-201\03_file-input-output\words.txt", 'r') as file_input:
-    words = file_input.read().split()
+file_input = open(r"C:\Users\speng\OneDrive\Desktop\codingnomads 201 labs\python-201\03_file-input-output\words.txt", 'r')
+words = file_input.read().split()
 
 # Initialize variables to store the shortest and longest words
 shortest_words = []

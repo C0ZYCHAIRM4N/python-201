@@ -12,3 +12,8 @@
 # {0: [0, 0, 0], 1: [0, 0, 1], 2: [0, 1, 0], 3: [0, 1, 1], ...,
 # 7: [1, 1, 1], 8: [1, 0, 0, 0], 9: [1, 0, 0, 1], ...,
 # 999: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1]}
+dict_base10 = {x: [int(d) for d in str(x)] for x in range(1000)}
+
+
+dict_base2 = {x: [int(d) for d in f"{x:0>3b}"] for x in range(1000)}
+print(dict_base2)

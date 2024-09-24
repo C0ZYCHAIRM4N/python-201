@@ -7,5 +7,6 @@ Use a visual debugger, such as the one integrated in your IDE or any
 of the other options mentioned in the course to while writing the
 code for these tasks.
 
+
 This will give you a chance to revisit challenging tasks, as well as
 to train using your debugger tool.
